@@ -5,8 +5,8 @@ import sys
 import os.path
 import os
 
-params = eval(open("ModelParams-MNISTClassifier.txt").read())
-settings = eval(open("Settings-MNISTClassifier.txt").read())
+params = eval(open("experiment1/ModelParams-MNISTClassifier.txt").read())
+settings = eval(open("experiment1/Settings-MNISTClassifier.txt").read())
 
 #clear marker file
 if utils.fileExists(settings['RUN_COMPLETE_FILE']):
