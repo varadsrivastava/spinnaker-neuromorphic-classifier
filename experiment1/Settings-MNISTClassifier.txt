@@ -2,8 +2,8 @@
 'LEARNING':False,
 'NUM_OBSERVATIONS':10,
 'OBSERVATION_EXPOSURE_TIME_MS':200,
-'SPIKE_SOURCE_VR_RESPONSE_PATH':'VrResponse_SpikeSourceData.csv',
-'SPIKE_SOURCE_ACTIVE_CLASS_PATH':'ClassActivation_SpikeSourceData.csv',
+'SPIKE_SOURCE_VR_RESPONSE_PATH':'experiment1/VrResponse_SpikeSourceData.csv',
+'SPIKE_SOURCE_ACTIVE_CLASS_PATH':'experiment1/ClassActivation_SpikeSourceData.csv',
 'RECORD_POP_INPUT':False,
 'RECORD_POP_NOISE_SOURCE':False,
 'RECORD_POP_RN':True,
@@ -13,6 +13,6 @@
 'SAVE_RASTER_PLOT_AS_PNG':True,
 'CACHE_DIR':'/home/ad246/SpinnakerClassifier/cache',
 'CLASSIFICATION_RESULTS_PATH':'WinningClassesByObservation.csv',
-'CLASS_LABELS_PATH':'ClassLabels.csv',
+'CLASS_LABELS_PATH':'experiment1/ClassLabels.csv',
 'RUN_COMPLETE_FILE':'PynnRunCompleted.txt'
 }
